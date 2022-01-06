@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 60px;
+    padding-left: 15px;
+    line-height: 43px;
+    border-left: 4px solid #554ce7;
+    font-weight: bold;
+}
+h2{
+    text-align:center;
+    font-size:45px;
+}
+h3{
+    font-size:30px;
+}
+p{
+    line-height: 27px;
+}
+section{
+    padding:50px 0;
+}
+.mt-35{
+    margin-top:35px;
+}
+.block{
+    display:block;
+}
+.mark{
+    color:orange;
+}
+.container-wrap {
+    margin: 0 auto;
+    padding:0 10%;
+}
+.display-flex{
+    display:flex;
+}
+.half-width{
+    width:50%;
+}
+.one-third {
+    width: 33%;
+    padding: 35px;
+    margin: 1%;
+    background: #efefef;
+    border-radius: 26px;
+}
+.one-third p{
+    margin-bottom:0;
+}
+.one-third img{
+    width:110px;
+}
+.mission{
+    margin-left:0;
+    background-color:#e0e7ff;
+}
+.vission{
+    background-color:#faeefd;
+}
+.goal{
+    margin-right:0;
+    background-color:#ffe4e6;
+}
+.hero-banner .right{
+    text-align:center;
+}
+.hero-banner .half-width img{
+    width:65%;
+}
+.button {
+    text-decoration: none;
+    padding: 13px 30px;
+    background: #554ce7;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+.coding{
+    background-image: url(../images/shapes/shape-6.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position-x: 4%;
+    padding: 100px 0;
+}
+.community{
+    padding-bottom:100px;
+    background-image: url(../images/shapes/shape-6.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position-x: 96%;
+    background-position-y: 94%;
+}
+.coding .left,.community .right{
+    width:40%;
+}
+.coding .left img,.community .right img{
+    width:100%;
+}
+.coding .right{
+    width:60%;
+    padding-left:60px;
+    padding-top:25px;
+}
+.community .left{
+    width:60%;
+    padding-right:60px;
+    padding-top:25px;
+}
+.newsletter {
+    background-color: #e9f6ff;
+    padding-top: 0;
+    padding-bottom:0;
+    margin-top: 50px;
+}
+.newsletter .half-width img{
+    width:100%;
+}
+.newsletter-content {
+    padding-left: 100px;
+    padding-top:100px;
+
+}
+.newsletter-content p {
+    width: 420px;
+}
+.newsletter-content input[type="email"] {
+
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    height: 43px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 12px;
+}
+input.button {
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    margin-top: -5px;
+    padding: 30px 0px;
+}
+.footer-logo{
+    margin:0;
+    font-size:35px;
+    font-family: 'Kaushan Script', cursive;
+    color:#fff;
+    border: none;
+}
+footer p{
+    color:#fff;
+    margin-bottom:0;
+}
+.footer-logo span{
+    color: #ed6f3d;
+}
